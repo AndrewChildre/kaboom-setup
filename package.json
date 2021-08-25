@@ -1,0 +1,19 @@
+{
+  "name": "kaboom-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html -p 1234",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kaboom": "^0.5.1"
+  },
+  "alias": {
+    "kaboom": "./node_modules/kaboom/dist/kaboom.mjs"
+  }
+}
